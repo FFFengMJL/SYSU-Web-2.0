@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<title>打地鼠</title>
+		<link rel="stylesheet" href="mole.css">
+		<script src="mole.js"></script>
+	</head>
+	
+	<body>
+		<h1>Whac-a-mole</h1>
+		<h2>Test your skill.How many boxes(moles) can you check(hit) in 30 seconds?</h2>
+		<div id="content">
+			<form name="form1" id="form1">
+				<input type="button" value="Start Game" onclick="GameStart()" /><input type="button" value="Stop Game" onclick="GameOver()" /> 
+				<label>&nbsp;Time：</label>
+				<input type="text" name="remtime" size="5"><br>
+				<input type="text" value="GameOver" name = "state"/>
+				<label>Score：</label>
+				<input type="text" name="score" size="5">
+			</form> 
+			<table>
+			<tr>
+				<td id="td[0]" onclick="hit(0)"></td>  
+				<td id="td[1]" onclick="hit(1)"></td>
+				<td id="td[2]" onclick="hit(2)"></td>
+				<td id="td[3]" onclick="hit(3)"></td>
+				<td id="td[4]" onclick="hit(4)"></td>
+				<td id="td[5]" onclick="hit(5)"></td>
+				<td id="td[6]" onclick="hit(6)"></td>
+			</tr>
+			<tr>
+				<td id="td[7]" onclick="hit(7)"></td>
+				<td id="td[8]" onclick="hit(8)"></td>
+				<td id="td[9]" onclick="hit(9)"></td>
+				<td id="td[10]" onclick="hit(10)"></td>
+				<td id="td[11]" onclick="hit(11)"></td>
+				<td id="td[12]" onclick="hit(12)"></td>
+				<td id="td[13]" onclick="hit(13)"></td>
+			</tr>
+			<tr>
+				<td id="td[14]" onclick="hit(14)"></td>
+				<td id="td[15]" onclick="hit(15)"></td>
+				<td id="td[16]" onclick="hit(16)"></td>
+				<td id="td[17]" onclick="hit(17)"></td>
+				<td id="td[18]" onclick="hit(18)"></td>
+				<td id="td[19]" onclick="hit(19)"></td>
+				<td id="td[20]" onclick="hit(20)"></td>
+			</tr>
+			<tr>
+				<td id="td[21]" onclick="hit(21)"></td>
+				<td id="td[22]" onclick="hit(22)"></td>
+				<td id="td[23]" onclick="hit(23)"></td>
+				<td id="td[24]" onclick="hit(24)"></td>
+				<td id="td[25]" onclick="hit(25)"></td>
+				<td id="td[26]" onclick="hit(26)"></td>
+				<td id="td[27]" onclick="hit(27)"></td>
+			</tr>
+			<tr>
+				<td id="td[28]" onclick="hit(28)"></td>
+				<td id="td[29]" onclick="hit(29)"></td>
+				<td id="td[30]" onclick="hit(30)"></td>
+				<td id="td[31]" onclick="hit(31)"></td>
+				<td id="td[32]" onclick="hit(32)"></td>
+				<td id="td[33]" onclick="hit(33)"></td>
+				<td id="td[34]" onclick="hit(34)"></td>
+			</tr>
+			</table>
+		</div>
+		<div id="instruction">
+			<p>Instructions:</p>
+            <ol>
+                <li>Click on the moles as they are selected randomly by the computer.</li>
+                <li>1 point per hit, minus 1 point per miss.</li>
+            </ol>
+		</div>
+	</body>
+</html>

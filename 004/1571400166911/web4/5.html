@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>calculator</title>
+	<link href="./index.css" type=text/css rel=stylesheet media="screen"/>
+	<script src="./index.js"></script>
+</head>
+<body>
+	<div id="title"><h2>计算器</h2></div>
+	<div id="plus-container">
+        <div id="result-box">
+        	<input type="text" id="result" value="0" readonly="readonly" />
+        </div>
+        <div id="key-box">
+            <ul>
+        		<button onclick="clearAll()">CE</button>
+        	    <button onclick="op('/')">/</button>
+            	<button onclick="op('*')">*</button>
+            	<button onclick="clearOne()">←</button>
+            	<button onclick="clickNum(7)">7</button>
+                <button onclick="clickNum(8)">8</button>
+                <button onclick="clickNum(9)">9</button>
+            	<button onclick="op('-')">-</button>
+            	<button onclick="clickNum(4)">4</button>
+                <button onclick="clickNum(5)">5</button>
+                <button onclick="clickNum(6)">6</button>
+            	<button onclick="op('+')">+</button>
+            	<button onclick="clickNum(1)">1</button>
+                <button onclick="clickNum(2)">2</button>
+                <button onclick="clickNum(3)">3</button>
+                <button onclick="op('.')">.</button>
+            	<button onclick="op('(')">(</button>
+            	<button onclick="clickNum(0)">0</button>
+            	<button onclick="op(')')">)</button>
+            	<button onclick="eq()">=</button>
+        </div>
+	</div>
+</body>
+</html>

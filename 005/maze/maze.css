@@ -1,0 +1,35 @@
+#maze {
+    font-family: "Consolas";
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+
+#tar {
+    background-color: #eeeeee;
+}
+
+#head {
+    font-size: 45px;
+}
+
+#up p {
+    margin: 0.5em auto;
+}
+
+#tips {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 520px;
+    font-size: 20px;
+}
+
+#wall {
+    margin: 0 auto;
+    width: 95px;
+    height: 25px;
+    border: 1px solid black;
+    background-color: #eeeeee;
+}

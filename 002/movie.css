@@ -1,0 +1,169 @@
+/* 米家龙 1834207 */
+/* 文本 id 与 class 结构
+|- body
+	|- #HeadBanner
+	|- #MainBody
+	|	|- #Main
+	|	|	|- #overview
+	|	|	|- #left
+	|	|		|- #rating
+	|	|		|- #comment
+	|	|			|- #left-left
+	|	|			|	|- .review
+	|	|			|	|- .critic
+	|	|			|
+	|	|			|- #left-right
+	|	|				|- .review
+	|	|				|- .critic
+	|	|- #buttombar
+	|- #buttom
+*/
+/* 
+其他说明：
+由于渲染关系，字体没法完全做到像要求那样
+*/
+
+body {
+    /* 设置背景灯相关元素，同时 padding 和 margin 为0 */
+    background-image: url("http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/background.png?version=1&modificationDate=1268939512000&api=v2");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-size: 8pt;
+    font-family: "Verdana", "Tahoma", sans-serif;
+    /* no margin nor padding */
+    margin: 0%;
+    padding: 0%;
+}
+
+/* 电影名称 */
+h1 {
+    font-size: 24pt;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Tahoma", "Verdana", sans-serif;
+}
+
+/* banner 设置背景 */
+#HeadBanner {
+    background-image: url(http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/bannerbackground.png?version=1&modificationDate=1268939512000&api=v2);
+    background-repeat: repeat-x;
+    height: 50px;
+}
+/* 图片居中 */
+#HeadBanner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 居中，宽度固定，设置边框 */
+#MainBody {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px  gray solid;
+}
+
+/* overview 右置，设置背景颜色与宽度 */
+#overview {
+    width: 250px;
+    float: right;
+    background-color: #A2B964;
+    font-size: 8pt;
+    font-family: "Arial", sans-serif;
+    /* margin-bottom: auto; */
+}
+dl {
+    margin: 10px;
+}
+dt{
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+/* 左边部分，设定宽度 */
+#left {
+    vertical-align: 3em;
+    float: left;
+    width: 550px;
+}
+/* 32%的背景 */
+#rating {
+    background-image: url(http://hcp.sysu.edu.cn/wiki/download/attachments/32833570/rottenbackground.png?version=1&modificationDate=1268939585000&api=v2);
+    background-repeat: repeat-x;
+    height: 83px;
+}
+#rating img {
+    float: left;
+}
+/* 32% 字体部分% */
+#sec-1 {
+    color: red;
+    font-size: 48pt;
+    font-weight: bold;
+    line-height: 140%;
+}
+/* 32% 右边的白色字体 */
+#sec-2 {
+    color: white;
+    font-size: 8pt;
+    /* vertical-align: bottom; */
+}
+
+/* 左半评论 */
+#left-left {
+    float: left;
+    width: 47%;
+    margin-left: 2%;
+}
+/* 右半评论 */
+#left-right {
+    float: left;
+    width: 47%;
+    margin-left: 2%;
+    margin-right: 2%
+}
+/* 为了撑高度 */
+#comment {
+    font-size: 8pt;
+    overflow: hidden;
+}
+/* 设置 comment 中的图片 */
+#comment img {
+    float: left;
+    margin-right: 5px;
+}
+/* 评论，有边框，需要撑高度 */
+.critc {
+    background-color: #E1D697;
+    border: 2px  gray solid;
+    font-weight: bold;
+    padding: 8px;
+    overflow: hidden;
+}
+.review {
+    margin-bottom: 3em; 
+}
+/* 撑高度，解决bug */
+.author {
+    overflow: hidden;
+}
+
+/* 1 - 88 */
+#buttombar {
+    background-color: #A2B964;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+
+/* 撑高度 */
+#Main {
+    overflow: hidden;
+}
+/* 为了美观，使用fixed来保证bottom一直在最下面 */
+#buttom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}

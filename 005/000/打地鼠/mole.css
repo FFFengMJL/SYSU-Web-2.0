@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+/*总*/
+html,body{
+	width:100%;
+	height:100%;
+	background: url(background.png);
+	background-size:80%;
+	background-attachment:local;
+	margin: 0px;
+	padding: 0px;
+	overflow: auto;
+}
+h1{
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	font-family: "Courier New";
+	color: darkolivegreen;
+}
+h2{
+	font-size: 30px;
+	text-align: center;
+	font-family: "Courier New";
+	color: darkolivegreen;
+}
+hr{
+	border:2px solid darkolivegreen;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*面板*/
+#order{
+	margin: 0 auto;
+	width:30%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	height: 60px;
+	position: relative;
+}
+#start{
+	font-size: 20px;
+	font-family: "Courier New";
+	color: darkolivegreen;
+	font-weight: bold;
+}
+#pause{
+	font-size: 20px;
+	float: right;
+	font-family: "Courier New";
+	color: darkolivegreen;
+	font-weight: bold;
+}
+#t{
+	float:left;
+	font-family: "Courier New";
+	color: darkolivegreen;
+	font-weight: bold;
+	font-size: 22px;
+	margin-top:20px;
+}
+#s{
+	float:right;
+	font-family: "Courier New";
+	color: darkolivegreen;
+	font-weight: bold;
+	font-size: 22px;
+	margin-top:20px;
+}
+#time{
+	height: 22px;
+	width:100px;
+	font-family: "Courier New";
+	font-weight: bold;
+	font-size: 20px;
+}
+#score{
+	height: 22px;
+	width:100px;
+	font-family: "Courier New";
+	font-weight: bold;
+	font-size: 20px;
+}
+
+/*打地鼠区域*/
+#hole{
+	background: url(inbackground.jpg);
+	background-size: 100%;
+	margin: 0 auto;
+	width: 800px;
+	height: 480px;
+}
+.b{
+	width:6%;
+	height: 48px;
+	border-radius: 100%;
+	margin-left: 1.72%;
+	margin-right: 1.72%;
+	margin-top: 25px;
+	background-color: white;
+}
+
+/*说明*/
+#ins{
+	margin: 0 auto;
+	width: 70%;
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+h3{
+	font-family: "Courier New";
+	color: darkolivegreen;
+	font-size: 25px;
+}
+li{
+	font-family: "Courier New";
+	color: darkolivegreen;
+	font-size: 20px;
+	font-weight: bold;
+}

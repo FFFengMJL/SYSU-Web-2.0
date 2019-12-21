@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <title>Calculator</title>
+	<meta http-equiv="Content-Type" content="text/html";charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="JavaScript.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class = "at-plus">
+		<h1>¼òµ¥¼ÆËãÆ÷</h1>
+		<div id = "function">
+			<div id = "screen">
+				<input type="text" name="equation" id="eqScreen" value=""/>
+			</div>
+			<div id = "Function_button">
+				<div class = "buttons">
+					<table>
+						<tr>
+							<th><input type="button" value="7" onclick="display(7)"></th>
+							<th><input type="button" value="8" onclick="display(8)"></th>
+							<th><input type="button" value="9" onclick="display(9)"></th>
+							<th><input type="button" value="/" onclick="display('/')"></th>
+						</tr>
+						<tr>
+							<th><input type="button" value="4" onclick="display(4)"></th>
+							<th><input type="button" value="5" onclick="display(5)"></th>
+							<th><input type="button" value="6" onclick="display(6)"></th>
+							<th><input type="button" value="*" onclick="display('*')"></th>
+						</tr>
+						<tr>
+							<th><input type="button" value="1" onclick="display(1)"></th>
+							<th><input type="button" value="2" onclick="display(2)"></th>
+							<th><input type="button" value="3" onclick="display(3)"></th>
+							<th><input type="button" value="-" onclick="display('-')"></th>
+						</tr>
+						<tr>
+							<th><input type="button" value="0" onclick="display(0)"></th>
+							<th><input type="button" value="." onclick="display('.')"></th>
+							<th><input type="button" value="¡û" onclick="del()"></th>
+							<th><input type="button" value="+" onclick="display('+')"></th>
+						</tr>
+						<tr>
+							<th><input type="button" value="(" onclick="display('(')"></th>
+							<th><input type="button" value=")" onclick="display(')')"></th>
+							<th><input type="button" value="CE" onclick="clr()"></th>
+							<th><input type="button" value="=" onclick="equal()"></th>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+#mainbody {
+    width: 475px;
+    height: 630px;
+    margin: 110px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#area {
+    width: 410px;
+    height: 630px;
+    margin: auto auto;
+    box-shadow: 10px 10px 20px 4px grey;
+}
+
+#map {
+    position: relative;
+    width: 365px;
+    height: 365px;
+    /* background-image: url("./panda.jpg"); */
+    background-size: 365px 365px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 16px;
+}
+
+button {
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-right: auto; */
+    width: 120px;
+    height: 40px;
+    color: #eafdff;
+    background-color: #4087f3;
+    font-size: 20px;
+    outline: none;
+    box-shadow: 3px 3px 5px 1px gray;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: #2d6bc9;
+}
+
+button:active {
+    background-color: #1b498f;
+    font-size: 18px;
+}
+
+.block {
+    position: absolute;
+    /* width: 87px;
+    height: 87px; */
+    background-color: white;
+    border-radius: 5px;
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+
+}
+
+.block:hover {
+    box-shadow: 0px 0px 5px 1px gray;
+}

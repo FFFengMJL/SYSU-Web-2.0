@@ -1,0 +1,118 @@
+body{
+  color: white;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+#apple_bulb{
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+#phoneContainer {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 375px;
+  height: 667px;
+  background-color: black;
+  border-radius: 30px;
+  border: 5px solid red;
+}
+
+.buttonContainer {
+  position: static;
+  width: 375px;
+  height: ((667 * 16) / 25) px;
+}
+
+#show_content {
+  width: 100%;
+  height: 145px;
+  position: relative;
+  text-align: right;
+}
+
+.buttonRowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: static; 
+  width: 100%;
+  height: ((4/5)*(667 * 4) / 25) px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.button {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-color: gray;
+  color: black;
+  border: 1px black solid;
+  outline: none;
+}
+
+.bck_black {
+  color: white;
+  background-color: rgba(78, 77, 77, 0.479);
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.right_button {
+  background-color: orange; 
+  font-size: 40px;
+  color: white;
+}
+
+#zero {
+  width: 175px;
+  height: 80px;
+  border-radius: 40px;
+  justify-content: flex-start;
+  position: relative;
+  text-indent: 20px;
+}
+
+.hoverClass {
+  background-color: white;
+  opacity: 0.5;
+}
+
+
+#content_text {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  width: 100%;
+  font-size: 80px;
+}
+
+.first_column {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+
+#apple {
+  background-image: url("./image/apple_icon.jpg");
+  background-size: 156px 90px;
+  background-repeat: no-repeat;
+  background-position: -40px -7px;
+  border: 1px solid  rgba(78, 77, 77, 0.479);
+}
+

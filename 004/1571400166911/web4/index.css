@@ -1,0 +1,86 @@
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	font-family: Microsoft YaHei;
+	
+}
+
+
+#title {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 130px;
+    padding: 0;
+	width: 160px;
+	height: 50px;
+    font-size: 18px;
+	color: #008500;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/*计算器整体框*/
+#plus-container {	
+	width: 320px;
+	height: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+    border-radius: 15px;
+    background-color: #5E5A5A;
+}
+
+#result {
+	position: absolute;
+	text-align: right;
+	padding-right: 8px;
+	font-size: 20px;
+	height: 25px;
+	margin: 13px;
+	margin-top: 18px;
+	padding-top: 2px;
+	width: 280px;
+	float: top; 
+	color: #493B3B;
+	border: 1.5px solid #BCB5B5;
+
+}
+
+#plus-container #key-box {
+	clear: both;
+	position: absolute;
+	width: 320px;
+	height: 240px;
+	margin-top: 43px;
+	margin-left: -20px;
+	margin-right: auto;
+}
+
+button {
+	display: inline-block;
+	cursor: pointer;
+	width: 60px;
+	height: 39px;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #493B3B;
+	font-size: 20px;
+	border: solid #CBCBCB 1px;
+	outline: none;
+	margin-top: 5px;
+    margin-bottom: 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: #E9E9E9;
+    border-radius: 3px;
+}
+
+button:active {
+	box-shadow: 0 0 2px 2px #D3D1D1;
+	background-color: white;
+}

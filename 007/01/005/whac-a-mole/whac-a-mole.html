@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="whac-a-mole.css">
+    <title>Whac-a-mole</title>
+</head>
+<body>
+    <div id="mole">
+        <div id="head">
+            <div id="text">
+                <h1>Whac-a-mole</h1>
+                <p>Test your skill. How many boxed(moles) can you check(hit) in 30 seconds</p>                
+            </div>
+
+            <div id="button">
+                <div id="start">
+                    <div class="left">
+                        <button id="game">Start Game</button>
+                    </div>
+                    <div class="right">
+                        <span>Time</span><input type="text" readonly value="30" id="time">
+                    </div>
+                </div>
+                <div id="end">
+                    <div class="left">
+                        <input type="text" id="GG" readonly value="Game Over">
+                    </div>
+                    <div class="right">
+                        <span>Score</span><input type="text" readonly value="0" id="score">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="map">
+        </div>
+        <div id="instr">
+            <span>Instrctions:</span><br><br>
+            <p>1. Click on the radio buttons(moles) as they are selected randomly by the computer.</p>
+            <p>2. 1 point per hit, minus 1 point per miss.</p>
+        </div>
+    </div>
+    <script src="./whac-a-mole.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+#migong{
+    position: relative;
+    width: 450px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+h3{
+    text-align: center;
+}
+#example{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gainsboro;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0.5px;
+    height:40px;
+    width: 80px;
+}
+#b1{
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 0px solid #000;
+    border-bottom: 0px solid #000;
+    background-color:gainsboro;
+    position: absolute;
+    margin: 0px;
+    top:0px;
+    left: 0px;
+    height: 40px;
+    padding: 0px;
+    width: 130px;
+}
+#b2{
+    border-top: 0px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: gainsboro;
+    position: absolute;
+    margin: 0px;
+    top:40px;
+    left: 0px;
+    height: 130px;
+    padding: 0px;
+    width: 130px;
+}
+#b3{
+    border-top: 1px solid #000;
+    border-left: 0px solid #000;
+    border-right: 0px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: gainsboro;
+    position: absolute;
+    margin: 0px;
+    top:0px;
+    left: 130px;
+    height: 40px;
+    width: 190px;
+    padding: 0px;
+}
+#b4{
+    border-top: 1px solid #000;
+    border-left: 0px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 0px solid #000;
+    background-color: gainsboro;
+    position: absolute;
+    margin: 0px;
+    top:0px;
+    left: 320px;
+    height: 40px;
+    padding: 0px;
+    width: 131px;
+}
+#b5{
+    border-top: 0px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: gainsboro;
+    position: absolute;
+    margin: 0px;
+    top:40px;
+    left: 320px;
+    height: 130px;
+    width: 130px;
+    padding: 0px;
+}
+#u1{
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 0px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: gainsboro;
+    position: absolute;
+    margin: 0px;
+    top:220px;
+    left: 0px;
+    height: 80px;
+    width: 180px;
+    padding: 0px;
+}
+#u2{
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 0px solid #000;
+    background-color: gainsboro;
+    position: absolute;
+    margin: 0px;
+    top:90px;
+    left: 180px;
+    height: 130px;
+    width: 90px;
+    padding: 0px;
+}
+#u3{
+    border-top: 0px solid #000;
+    border-left: 0px solid #000;
+    border-right: 0px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: gainsboro;
+    position: absolute;
+    margin: 0px;
+    top:220px;
+    left: 180px;
+    height: 81px;
+    width: 90px;
+    padding: 0px;
+}
+#u4{
+    border-top: 1px solid #000;
+    border-left: 0px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: gainsboro;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top:220px;
+    left: 270px;
+    height: 80px;
+    width: 180px;
+}
+#start{
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color:greenyellow;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top:175px;
+    left: 0px;
+    height: 40px;
+    width: 40px;
+}
+#end{
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color:blue;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    top:175px;
+    left: 410px;
+    height: 40px;
+    width: 40px;
+}
+p{  
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+    left:10px;
+    font-size: 25pt;
+    font-weight: bold;
+    
+}
+#z{
+    font-size:24pt;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;    
+}
+#state{
+    width:120px;
+    height: 80px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20pt;    
+}
+

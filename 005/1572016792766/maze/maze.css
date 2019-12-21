@@ -1,0 +1,168 @@
+html, body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#maze {
+    width: 500px;
+    height: 300px;
+}
+
+.wall, .path {
+    display: inline-block;
+    position: absolute;
+}
+
+#wall1, #wall2, #wall3, #wall4, #wall5 {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+
+#wall2, #wall3, #wall5, #path1, #path5 {
+    border-bottom: solid 1px black;
+}
+
+#wall1, #wall4, #path3 {
+    border-top: solid 1px black;
+}
+
+#wall1, #wall2, #wall5, #path1 {
+    left: 0px;
+}
+
+#wall1, #wall5 {
+    width: 100%;
+}
+
+#wall2, #wall3, #path3 {
+    top: 52px;
+}
+
+#wall1 {
+    top:0px;
+    height: 52px;
+}
+
+#wall2 {
+    width: 150px;
+    height: 150px;
+}
+
+#wall3 {
+    width: 153px;
+    height: 150px;
+    right: -2px;
+}
+
+#wall4 {
+    width: 98px;
+    height: 150px;
+    left: 200px;
+    top: 103px;
+}
+
+#wall5 {
+    height: 46px;
+    bottom: 0px;
+}
+
+#path1 {
+    width: 200px;
+    height: 50px;
+    top:203px;
+}
+
+#path2 {
+    width: 50px;
+    height: 100px;
+    top: 103px;
+    left: 150px;
+}
+
+#path3 {
+    width: 196px;
+    height: 51px;
+    left: 150px;
+}
+
+#path4 {
+    width: 50px;
+    height: 100px;
+    top: 103px;
+    right: 150px;
+}
+
+#path5 {
+    width: 200px;
+    height: 50px;
+    top: 203px;
+    right: 0px;
+}
+body>p:nth-of-type(-n+2) {
+    font-size: 22px;
+}
+
+.wall, #example {
+    background-color: rgb(238, 238, 238);
+}
+
+#example, #maze {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#example {
+    border: solid 1px black;
+    width: 100px;
+    height: 25px;
+	margin-bottom:-30px;
+}
+
+.path, .wall, #start, #end {
+    cursor: pointer;
+}
+
+#start, #end {
+    position: absolute;
+    border: solid 1px black;
+    width: 43px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 35px;
+    top: 4px;
+}
+
+#start {
+    left: 0px;
+    background-color: rgb(132, 255, 124);
+    opacity: 0.7;
+}
+
+#start:hover {
+    opacity: 1;
+}
+
+#end {
+    right: -2px;
+    background-color: rgb(134, 131, 254);
+    opacity: 0.7;
+}
+
+#end:hover {
+    opacity: 1;
+}
+
+#start p, #end p {
+    margin-top: 0px;
+}
+
+.error {
+    background-color: red;
+}
+#ps{
+	width:550px;
+	height:100px;
+	margin:0 auto;
+	text-align:left;
+}

@@ -1,0 +1,78 @@
+body{
+
+    background-image: url(https://hbimg.huabanimg.com/071f8e33b6e61a7dabea1ac0bd8b7b9512446ed0a687-VeK8Or_fw658);
+    
+}
+
+
+
+.op
+{
+    width :25rem;
+    margin:auto;
+}
+input{
+    width: 22rem;
+    height: 3rem;
+    margin:3px;
+}
+.button{
+    float: left;
+    width: 5rem;
+    height: 2rem;
+    border: 0.01rem rgb(209, 193, 193) solid;
+    text-align: center;
+    line-height: 2rem;
+    cursor: pointer;
+    margin:5px;
+    background-color: lightgray;
+}
+.button1{
+    float: left;
+    width: 5rem;
+    height: 2rem;
+    border: 0.01rem rgb(209, 193, 193) solid;
+    text-align: center;
+    line-height: 2rem;
+    cursor: pointer;
+    margin:5px;
+    background-color: orange;
+}
+.button2{
+    float: left;
+    width: 5rem;
+    height: 2rem;
+    border: 0.01rem rgb(209, 193, 193) solid;
+    text-align: center;
+    line-height: 2rem;
+    cursor: pointer;
+    margin:5px;
+    background-color: grey;
+}
+.frame{
+    border: 1rem lightgray solid;
+    width : 23rem;
+    height:24rem;
+    margin:auto;
+    background-color: black;
+    top:100px;
+    position: relative;
+}
+.title{
+    font-size: 13pt;
+    text-align: center;
+    top:10px;
+    position: relative;
+    color: white;
+}
+.tips{
+    float: left;
+    width: 22rem;
+    height: 3rem;
+    border: 0.01rem rgb(209, 193, 193) solid;
+    text-align: center;
+    line-height: 1.5rem;
+    margin:5px;
+    color:white;
+    background-color: rgb(45, 64, 45)08);
+}

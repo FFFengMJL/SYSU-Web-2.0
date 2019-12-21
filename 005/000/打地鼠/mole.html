@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>mole</title>
+<link rel="stylesheet" type="text/css" href="mole.css">
+<link rel="icon" href="logo.png">
+</head>
+
+<body>
+	<h1>WHAC-A-MOLE</h1>
+	<h2>Test your skill. How many boxes(moles) can you check(hit) in 30 seconds?</h2>
+	<hr/>
+	
+	<div id="order">
+		<input type="button" id="start" value="Start Game/ Stop Game">
+		<input type="button" id="pause" value="Pause Game"><br/>
+		<div id="t">Time<input type="text" id="time" value=""></div>
+		<div id="s">Score<input type="text" id="score" value=""></div>
+	</div>
+	
+	<div id="hole">
+		<input type="button" class="b" value="" id="1" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="2" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="3" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="4" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="5" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="6" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="7" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="8" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="9" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="10" onClick="choose(this.id)"><br/>
+		<input type="button" class="b" value="" id="11" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="12" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="13" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="14" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="15" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="16" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="17" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="18" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="19" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="20" onClick="choose(this.id)"><br/>
+		<input type="button" class="b" value="" id="21" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="22" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="23" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="24" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="25" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="26" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="27" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="28" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="29" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="30" onClick="choose(this.id)"><br/>
+		<input type="button" class="b" value="" id="31" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="32" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="33" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="34" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="35" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="36" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="37" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="38" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="39" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="40" onClick="choose(this.id)"><br/>
+		<input type="button" class="b" value="" id="41" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="42" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="43" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="44" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="45" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="46" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="47" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="48" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="49" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="50" onClick="choose(this.id)"><br/>
+		<input type="button" class="b" value="" id="51" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="52" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="53" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="54" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="55" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="56" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="57" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="58" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="59" onClick="choose(this.id)">
+		<input type="button" class="b" value="" id="60" onClick="choose(this.id)"><br/>
+	</div>
+	
+	<div id="ins">
+	<h3>Instructions:</h3>
+	   	<ol>
+			<li>Click on the radio, buttons(moles) as they are selected randomly by the computer.</li>
+			<li>1 point per hit, minus 1 point per miss.</li>
+		</ol>
+	</div>
+	<script src="mole.js"></script>
+</body>
+</html>

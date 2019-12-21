@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    position: relative;
+    top: 140px;
+}
+
+#main {
+    position: relative;
+    top: 140px;
+    border-style: solid;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    background: url(https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3500068765,927570285&fm=26&gp=0.jpg);
+    background-size: 80px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    width: 80px;
+    height: 60px;
+}
+
+input {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+#cat {
+    width: 450px;
+    position: relative;
+    top: -110px;
+}
+
+body {
+    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1571335249423&di=40578cd4d45300cc777d5aa8cf5cc26c&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fblog%2F201404%2F04%2F20140404051547_TQ2Bx.jpeg);
+}

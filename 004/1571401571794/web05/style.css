@@ -1,0 +1,78 @@
+html{
+	background-image: url("image/background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 2048px 980px;
+	width: 100vw;
+	height: 100vh;
+}
+
+h1{
+	color: rgba(255, 255, 255, 0.9);
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 40pt;
+	font-weight: bold;
+	letter-spacing: 8px;
+}
+
+.at-plus {
+	position: relative;
+	width: 450px;
+	height: 500px;
+	top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#function{
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 0px;
+	border-radius: 20px;
+}
+
+#eqScreen{
+	width: 380px;
+	border: 0px solid #924526;
+	margin: 10px 10px;
+	margin-left: 33px;
+	font-size: 25px;
+	color: #696969;
+	overflow: hidden;
+	direction: ltr;
+	text-align: right;
+
+}
+
+#Function_button input{
+	line-height: 1;
+	text-decoration:none;
+	display: inline-block;
+	padding: 8px 12px;
+	height: 50px;
+	margin: 5px;
+	width: 80px;
+	font-family: sans-serif;
+	font-size: 23px;
+	letter-spacing: 2px;
+	color: #E0EEEE;
+	cursor: pointer;
+	border: 1.5px solid white;
+	background-color: rgba(255, 255, 255, 0);
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	transition: all 0.3s;
+}
+
+#Function_button input:hover{
+	color: #68838B;
+	background-color: rgba(255, 255, 255, 0.9);
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.buttons{
+	position: relative;
+	left: 8%;
+	bottom: 5px;
+}
