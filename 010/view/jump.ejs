@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>跳转</title>
 </head>
 <body>
     
 </body>
     <script>
         window.onload = () => {
-            alert('出错了>_<');
-            window.location = 'http://localhost:8000/login';
+            alert('<%= tarStr %>' + '>_<');
+            window.location = 'http://localhost:8000' + '<%= tarAdd %>';
         }
     </script>
 </html>

@@ -17,7 +17,7 @@
 
     function main() {
         $('#reg').click(function() {
-            window.location = 'https://localhost:8000/regist';
+            window.location = 'http://localhost:8000/regist';
             return;
         });
 
